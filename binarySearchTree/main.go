@@ -56,7 +56,34 @@ func (n *BinaryNode)Search(d int) bool {
 //TODO
 // Delete function
 
-// Print function
+// Print functions traverse
+func (n *BinaryNode) printPreOrder() {
+	if n == nil {
+		return
+	} else {
+		fmt.Printf("%d ", n.data)
+		printPreOrder(n.left)
+		printPreOrder(n.right)
+	}
+}
+func (n *BinaryNode) printPostOrder() {
+	if n == nil {
+		return
+	} else {
+		printPostOrder(n.left)
+		printPostOrder(n.right)
+		fmt.Printf("%c ", n.data)
+	}
+}
+func (n *BinaryNode) printInOrder() {
+	if n == nil {
+		return
+	} else {
+		printInOrder(n.left)
+		fmt.Printf("%c ", n.data)
+        printInOrder(n.right)
+	}
+}
 
 func main() {
     tree := &BinaryNode {Data: 100}
