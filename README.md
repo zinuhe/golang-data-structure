@@ -1,15 +1,15 @@
 # Data Structure in Golang
 
-## Binary Search Tree
+## [Binary Search Tree](https://github.com/zinuhe/golang-data-structure/tree/main/binarySearchTree)
 
-## Graph
+## [Graph](https://github.com/zinuhe/golang-data-structure/tree/main/graph)
 
-## Heap
+## [Heap](https://github.com/zinuhe/golang-data-structure/tree/main/heap)
 
-## Linked List
+## [Linked List](https://github.com/zinuhe/golang-data-structure/tree/main/linkedList)
 
-## Queue
+## [Queue](https://github.com/zinuhe/golang-data-structure/tree/main/queue)
 
-## Stack
+## [Stack](https://github.com/zinuhe/golang-data-structure/tree/main/stack)
 
-## Trie
+## [Trie](https://github.com/zinuhe/golang-data-structure/tree/main/trie)
