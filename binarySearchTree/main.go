@@ -6,9 +6,9 @@ var count int
 
 // BinaryNode represents the components of a binary search tree
 type BinaryNode struct {
-    Data int
-    Left *Node  //No need to defined it as pointer?
-    Right *Node
+    Data  int
+    Left  *BinaryNode  //No need to defined it as pointer?
+    Right *BinaryNode
 }
 
 // Insert will add a node to the tree
