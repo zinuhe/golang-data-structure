@@ -1,6 +1,6 @@
 # Data Structure in Golang
 
-## [Binary Search Tree](https://github.com/zinuhe/golang-data-structure/tree/main/binarySearchTree)
+## [Binary Search Tree (BST)](https://github.com/zinuhe/golang-data-structure/tree/main/binarySearchTree)
 
 ## [Graph](https://github.com/zinuhe/golang-data-structure/tree/main/graph)
 
