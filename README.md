@@ -15,4 +15,5 @@
 ## [Trie](https://github.com/zinuhe/golang-data-structure/tree/main/trie)
 
 ## Info
+* [golangprograms](https://www.golangprograms.com/data-structure-and-algorithms.html)
 * [algorithmist](https://algorithmist.com/wiki/Data_structure)
