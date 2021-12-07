@@ -4,49 +4,51 @@ import "fmt"
 
 var count int
 
-// Node represents the components of a binary search tree
-type Node struct {
-    Key int
+// BinaryNode represents the components of a binary search tree
+type BinaryNode struct {
+    Data int
     Left *Node  //No need to defined it as pointer?
     Right *Node
 }
 
 // Insert will add a node to the tree
-// the key to add should not be already in the tree
-func (n *Node) Insert (k int) {
-    if n.Key < k {
+// the data to add should not be already in the tree
+func (n *BinaryNode) Insert(d int) {
+    if n == nil {
+        return
+    } else if n.Data < d {
         //move to the right
         //if the right node doesn't exist
         if n.Right == nil {
-            n.Right = &Node{Key: k}
+            n.Right = &BinaryNode{Data: d}
         } else {
-            n.Right.Insert(k)
+            n.Right.Insert(d)
         }
-    } else if n.Key > k {
+    } else if n.Data > d {
         //move to the left
         //if the left node doesn't exist
         if n.Left == nil {
-            n.Left = &Node{Key: k}
+            n.Left = &BinaryNode{Data: d}
         } else {
-            n.Left.Insert(k)
+            n.Left.Insert(d)
         }
     }
 }
 
-// Search will take in a key value
+// Search will take in a data value
 // and return true if there is a node with that value
-func (n *Node)Search(k int) bool {
+func (n *BinaryNode)Search(d int) bool {
     count++
     if n == nil {
         // the end of the tree without a match
         return false
     }
-    if n.Key < k {
+    if n.Data < d {
         //move to the right
-        return n.Right.Search(k)
-    } else if n.Key > k {
+        return n.Right.Search(d)
+    } else if n.Data > d {
         //move to the left
-        return n.Left.Search(k)
+        return n.Left.Search(d)
     }
     return true //there is a match
 }
@@ -57,7 +59,7 @@ func (n *Node)Search(k int) bool {
 // Print function
 
 func main() {
-    tree := &Node {Key: 100}
+    tree := &BinaryNode {Data: 100}
     fmt.Println(tree)
     tree.Insert(500)
     fmt.Println(tree)
