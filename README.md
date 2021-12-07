@@ -13,3 +13,6 @@
 ## [Stack](https://github.com/zinuhe/golang-data-structure/tree/main/stack)
 
 ## [Trie](https://github.com/zinuhe/golang-data-structure/tree/main/trie)
+
+## Info
+* [algorithmist](https://algorithmist.com/wiki/Data_structure)
