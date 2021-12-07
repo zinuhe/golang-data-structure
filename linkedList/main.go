@@ -1,13 +1,7 @@
 package main
 
 import (
-<<<<<<< HEAD
-         "fmt"
-)
-
-func main() {
-=======
-  "fmt"
+	"fmt"
 )
 
 
@@ -87,5 +81,4 @@ func main() {
   emptyList := linkedList{}
   emptyList.deleteWithValue(10)
 
->>>>>>> a38d56c4ed165a88a8c750537d4926b11d3ac7ec
 }
