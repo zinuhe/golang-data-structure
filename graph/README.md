@@ -1,5 +1,7 @@
-# golang-data-structure
+# Data Structure in Golang
 
-Adjacency List
+## Graph
 
-Adjacency Matrix
+* Adjacency List
+
+* Adjacency Matrix
