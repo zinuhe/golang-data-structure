@@ -1,1 +1,3 @@
-# golang-data-structure
+# Data Structure in Golang
+
+## Stack
