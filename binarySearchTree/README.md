@@ -2,5 +2,4 @@
 
 ## Binary Search Tree
 
-Info
-https://www.youtube.com/watch?v=-oYitelECuQ
+[Info Video](https://www.youtube.com/watch?v=-oYitelECuQ)
