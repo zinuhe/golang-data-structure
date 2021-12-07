@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-
 type node struct {
   data int
   next *node
@@ -80,5 +79,4 @@ func main() {
   //empty List
   emptyList := linkedList{}
   emptyList.deleteWithValue(10)
-
 }
