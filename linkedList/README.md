@@ -3,6 +3,4 @@
 ## Linked List
 
 
-links
-
-[https://www.youtube.com/watch?v=1S0_-VxPLJo](linked List)
+[Info video]([https://www.youtube.com/watch?v=1S0_-VxPLJo)
