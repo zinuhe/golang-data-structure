@@ -2,7 +2,9 @@
 
 ## Stack
 
-### ToDo
+### Example01
+Basic stack implementation
+### Example02
 -Stack with a rank, reorder the rank every time a new values is pushed into the stack
 
 1, val3<br>

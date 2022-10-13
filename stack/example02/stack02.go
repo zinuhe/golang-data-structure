@@ -1,7 +1,7 @@
-package main
+package example02
 
-import(
-  "fmt"
+import (
+	"fmt"
 )
 
 type Stack []string
